@@ -1,0 +1,47 @@
+name: whispering_shadows
+description: An interactive AI-powered ghost and tarot reading mobile app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Icons
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_auth: ^4.15.3
+  
+  # HTTP & API
+  http: ^1.1.2
+  
+  # Utilities
+  uuid: ^4.2.2
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  
+  # For future AR features
+  # ar_flutter_plugin: ^0.7.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # Add tarot card images here when you have them
+  # assets:
+  #   - assets/images/tarot/
+  #   - assets/sounds/
